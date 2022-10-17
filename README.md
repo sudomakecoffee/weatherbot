@@ -1,4 +1,4 @@
-# weather-table-bot
+# weatherbot
 
 Discord bot that rolls a weather table once a day.
 
