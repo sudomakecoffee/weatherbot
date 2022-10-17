@@ -36,6 +36,6 @@ export const Season: Command = {
     BotConfig.getInstance().save(config);
     log.info(content);
 
-    await interaction.followUp({ ephemeral: true, content });
+    await interaction.reply({ ephemeral: true, content });
   },
 };
