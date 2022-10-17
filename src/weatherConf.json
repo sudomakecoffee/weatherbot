@@ -1,0 +1,27 @@
+{
+  "spring": [
+    { "cutoff": 45, "weather": "Clear Skies" },
+    { "cutoff": 72, "weather": "Cloudy" },
+    { "cutoff": 92, "weather": "Rain" },
+    { "cutoff": 100, "weather": "Storm" }
+  ],
+  "summer": [
+    { "cutoff": 40, "weather": "Clear Skies" },
+    { "cutoff": 70, "weather": "Cloudy" },
+    { "cutoff": 95, "weather": "Rain" },
+    { "cutoff": 100, "weather": "Storm" }
+  ],
+  "autumn": [
+    { "cutoff": 40, "weather": "Clear Skies" },
+    { "cutoff": 65, "weather": "Cloudy" },
+    { "cutoff": 90, "weather": "Rain" },
+    { "cutoff": 95, "weather": "Storm" },
+    { "cutoff": 100, "weather": "Snow" }
+  ],
+  "winter": [
+    { "cutoff": 40, "weather": "Clear Skies" },
+    { "cutoff": 65, "weather": "Cloudy" },
+    { "cutoff": 95, "weather": "Snow" },
+    { "cutoff": 100, "weather": "Blizzard" }
+  ]
+}
