@@ -88,11 +88,9 @@ export async function updateWeather(client: Client, guildId: string, chaos?: str
   const channel = theGuild?.channels.cache.get(channelId) as GuildBasedChannel;
   await channel.setName(`Weather: ${toBe}`);
 
-  if (chaos) {
-    guildConfig.paused = true;
-    BotConfig.getInstance().config.set(guildId, guildConfig);
-    BotConfig.getInstance().save();
-  }
+  guildConfig.paused = chaos !== undefined;
+  BotConfig.getInstance().config.set(guildId, guildConfig);
+  BotConfig.getInstance().save();
 
   return true;
 }
