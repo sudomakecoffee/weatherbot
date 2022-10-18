@@ -19,9 +19,6 @@ export const UpdateWeather: Command = {
           description: "The weather event",
           type: ApplicationCommandOptionType.String,
           required: true,
-          choices: [
-            { name: "Chaos", value: "Chaos" }
-          ]
         }
       ],
     },
